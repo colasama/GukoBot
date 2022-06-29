@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "GukoBot"
+version = "0.1.0"
+description = "GukoBot"
+authors = "Colanns"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+nonebot2 = "^2.0.0-beta.4"
+
+[tool.poetry.dev-dependencies]
+nb-cli = "^0.6.7"
+
+[tool.nonebot]
+plugins = ["nonebot_plugin_gocqhttp"]
+plugin_dirs = ["Guko/plugins"]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
