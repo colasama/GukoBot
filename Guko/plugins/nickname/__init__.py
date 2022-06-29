@@ -4,7 +4,7 @@ from nonebot.adapters.onebot.v11.message import Message
 import aiosqlite
 
 
-async def get_nickname(user_id): # 我震撼了，这玩意可以自动close()
+async def get_nickname(user_id):
     values = []
     async with aiosqlite.connect("C:/Users/Administrator/Documents/eatwhat_bot/plugins/Nickname.db") as conn:
         async with conn.execute('SELECT nickname FROM NAME WHERE user_id=? ', (user_id,)) as c:

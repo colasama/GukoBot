@@ -3,7 +3,7 @@ from tortoise import Tortoise
 
 from Guko.utils.log import log
 
-
+# Forked from https://github.com/Kyomotoi/ATRI
 # 临时的实现，寻求更好的方式！欢迎pr
 
 
