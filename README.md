@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
-  <a href="https://v2.nonebot.dev/"><img src="https://s2.loli.net/2022/06/29/uohnZ7V31TWXDKr.png" width="200" height="200" alt="nonebot"></a>
+  <img src="https://s2.loli.net/2022/06/29/uohnZ7V31TWXDKr.png" width="200" height="200">
 </p>
 
 <div align="center">
