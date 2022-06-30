@@ -13,7 +13,7 @@ nonebot2 = "^2.0.0-beta.4"
 nb-cli = "^0.6.7"
 
 [tool.nonebot]
-plugins = ["nonebot_plugin_gocqhttp"]
+plugins = ["nonebot_plugin_gocqhttp", "nonebot_plugin_help", "nonebot_plugin_repeater"]
 plugin_dirs = ["Guko/plugins"]
 
 [build-system]

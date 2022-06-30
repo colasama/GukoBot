@@ -14,6 +14,12 @@ __pycache__/
 # QQ Accounts
 accounts/
 
+# Picture Resources
+*.png
+*.jpg
+*.gif
+*.bmp
+
 # Distribution / packaging
 .Python
 build/
